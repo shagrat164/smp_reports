@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c31c259-6417-409d-a0af-71bce4ef59b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/MainApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayout.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/Settings.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBase.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/Main.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/Main.java" />
-    </list>
+    <list default="true" id="7c31c259-6417-409d-a0af-71bce4ef59b9" name="Default" comment="" />
     <ignored path="smp_reports.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -639,12 +631,12 @@
       <workItem from="1473160882849" duration="218000" />
       <workItem from="1473161188569" duration="15000" />
       <workItem from="1473161386562" duration="101000" />
-      <workItem from="1473163464122" duration="4687000" />
+      <workItem from="1473163464122" duration="4781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9287000" />
+    <option name="totallyTimeSpent" value="9381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
@@ -658,7 +650,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
