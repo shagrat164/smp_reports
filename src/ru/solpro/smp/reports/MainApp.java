@@ -5,10 +5,10 @@ package ru.solpro.smp.reports;
  */
 
 import java.io.IOException;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -21,9 +21,13 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("СМП Reports");
+        this.primaryStage.setTitle("Проспотр отчётов - СМП");
+        this.primaryStage.setMinWidth(1024);
+        this.primaryStage.setMinHeight(768);
+        this.primaryStage.getIcons().add(new Image("file:resources/images/icon_app.png"));
 
         initRootLayout();
+
         showPersonOverview();
     }
 
