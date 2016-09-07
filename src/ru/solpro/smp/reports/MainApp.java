@@ -27,7 +27,6 @@ public class MainApp extends Application {
         this.primaryStage.getIcons().add(new Image("file:resources/images/icon_app.png"));
 
         initRootLayout();
-
         showPersonOverview();
     }
 
