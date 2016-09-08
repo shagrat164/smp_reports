@@ -61,7 +61,8 @@ public class MainApp extends Application {
 
             // Помещаем сведения об адресатах в центр корневого макета.
             rootLayout.setCenter(personOverview);
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
