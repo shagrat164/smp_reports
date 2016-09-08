@@ -10,9 +10,9 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
@@ -29,6 +29,7 @@ public class MainApp extends Application {
         this.primaryStage.setMinHeight(768);
         this.primaryStage.getIcons().add(new Image("file:resources/images/icon_app.png"));
         this.primaryStage.setFullScreen(true);
+        this.primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 
         this.primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
             @Override
@@ -87,6 +88,6 @@ public class MainApp extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 }
