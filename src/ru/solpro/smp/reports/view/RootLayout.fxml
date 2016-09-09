@@ -5,18 +5,23 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.solpro.smp.reports.view.ViewBaseController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
+              <MenuItem mnemonicParsing="false" text="Open" />
               <MenuItem mnemonicParsing="false" text="Close" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
+          <Menu mnemonicParsing="false" text="Линия">
             <items>
-              <MenuItem mnemonicParsing="false" text="Setting" />
+              <MenuItem mnemonicParsing="false" text="Кемтек 1" />
+              <MenuItem mnemonicParsing="false" text="Кемтек 2" />
+              <MenuItem mnemonicParsing="false" text="Робертс" />
+              <MenuItem mnemonicParsing="false" text="Унипак" />
+              <MenuItem mnemonicParsing="false" text="Джонсон" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">

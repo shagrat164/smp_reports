@@ -10,22 +10,22 @@ public class ViewBaseController {
     /**
      * Действие при нажатии на кнопку "Show COM".
      */
-    @FXML
-    private void handleShowComPort()
-    {
+//    @FXML
+//    private void handleShowComPort()
+//    {
         /* код выводит список всех портов в системе
         String[] portNames = SerialPortList.getPortNames();
         for(int i = 0; i < portNames.length; i++){
             System.out.println(portNames[i]);
         }
         */
-    }
+//    }
     /**
      * Действие при нажатии на кнопку "Send COM".
      */
-    @FXML
-    private void handleSendToComPort()
-    {
+//    @FXML
+//    private void handleSendToComPort()
+//    {
         /* код открывает порт, передаёт символ и закрывает соединение
         SerialPort serialPort = new SerialPort("COM1");
         try {
@@ -38,5 +38,5 @@ public class ViewBaseController {
             System.out.println(ex);
         }
         */
-    }
+//    }
 }
