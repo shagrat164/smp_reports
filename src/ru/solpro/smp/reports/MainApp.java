@@ -5,6 +5,7 @@ package ru.solpro.smp.reports;
  */
 
 import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,6 +13,8 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import ru.solpro.smp.reports.view.RootLayoutController;
+import ru.solpro.smp.reports.view.ViewStatusController;
 
 public class MainApp extends Application {
 
@@ -37,7 +40,14 @@ public class MainApp extends Application {
 //        });
 //------
         initRootLayout();
-        showPersonOverview();
+        showMainOverview();
+        showStatus();
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("close app");
+        //db.dbDisconnect();
     }
 
     /**
@@ -54,25 +64,44 @@ public class MainApp extends Application {
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
             primaryStage.show();
+
+            // Передаю ссылку на mainApp
+            RootLayoutController controller = loader.getController();
+            controller.setMainApp(this);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     /**
-     * Показывает в корневом макете сведения об адресатах.
+     * Показывает в корневом макете ...
      */
-    public void showPersonOverview() {
+    public void showMainOverview() {
         try {
-            // Загружаем сведения об адресатах.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/ViewBase.fxml"));
-            AnchorPane personOverview = (AnchorPane) loader.load();
+            AnchorPane mainOverview = (AnchorPane) loader.load();
 
-            // Помещаем сведения об адресатах в центр корневого макета.
-            rootLayout.setCenter(personOverview);
+            rootLayout.setCenter(mainOverview);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        catch (IOException e) {
+    }
+
+    /**
+     * Показывает в корневом макете сведение о статусе соединения.
+     */
+    public void showStatus() {
+        try {
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("view/ViewStatus.fxml"));
+            AnchorPane statusOverview = (AnchorPane) loader.load();
+
+            rootLayout.setBottom(statusOverview);
+
+            ViewStatusController controller = loader.getController();
+            controller.setMainApp(this);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -86,6 +115,6 @@ public class MainApp extends Application {
     }
 
     public static void main(String[] args) {
-        Application.launch(args);
+        launch(args);
     }
 }
