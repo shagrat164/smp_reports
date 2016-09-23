@@ -30,7 +30,7 @@ public class ViewStatusController {
      */
     @FXML
     private void initialize() {
-        //stringStatusConnection.setText("12345");
+        stringStatusConnection.setText("Status connection");
     }
 
     /**
