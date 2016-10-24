@@ -2,7 +2,6 @@ package ru.solpro.smp.reports.view;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.MenuItem;
-import javafx.stage.Stage;
 import ru.solpro.smp.reports.MainApp;
 
 /**
@@ -25,22 +24,22 @@ public class RootLayoutController {
      */
     @FXML
     private void initialize() {
-        connectDB.setDisable(false);
-        disconnectDB.setDisable(true);
+//        connectDB.setDisable(false);
+//        disconnectDB.setDisable(true);
     }
 
     @FXML
     private void ConnectDB() throws Exception {
-        System.out.println("connect db");
-        connectDB.setDisable(false);
-        disconnectDB.setDisable(true);
+//        System.out.println("connect db");
+//        connectDB.setDisable(false);
+//        disconnectDB.setDisable(true);
     }
 
     @FXML
     private void DisconnectDB() {
-        System.out.println("disconnect db");
-        disconnectDB.setDisable(false);
-        connectDB.setDisable(true);
+//        System.out.println("disconnect db");
+//        disconnectDB.setDisable(false);
+//        connectDB.setDisable(true);
     }
 
     public void setMainApp(MainApp mainApp) {

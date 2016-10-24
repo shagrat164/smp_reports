@@ -5,7 +5,6 @@ package ru.solpro.smp.reports;
  */
 
 import java.io.IOException;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -28,17 +27,7 @@ public class MainApp extends Application {
         this.primaryStage.setMinWidth(1024);
         this.primaryStage.setMinHeight(768);
         this.primaryStage.getIcons().add(new Image("file:resources/images/icon_app.png"));
-//------
-//        this.primaryStage.setFullScreen(true);
-//        this.primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 
-//        this.primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
-//            @Override
-//            public void handle(WindowEvent event) {
-//                event.consume();
-//            }
-//        });
-//------
         initRootLayout();
         showMainOverview();
         showStatus();
@@ -47,7 +36,6 @@ public class MainApp extends Application {
     @Override
     public void stop() {
         System.out.println("close app");
-        //db.dbDisconnect();
     }
 
     /**

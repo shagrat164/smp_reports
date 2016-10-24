@@ -1,16 +1,16 @@
 package ru.solpro.smp.reports;
 
+import java.sql.*;
+
 /**
  * Created by Администратор on 07.09.2016.
  */
 
-import java.sql.*;
-
 public class Database {
-    private static Connection connection;
-    private static Statement statement;
-    private static String connectionUrl;
-    private static ResultSet resultSet;
+    private Connection connection;
+    private Statement statement;
+    private String connectionUrl;
+    private ResultSet resultSet;
 
     public Database() {
         connection = null;
@@ -37,7 +37,7 @@ public class Database {
     /**
      * Метод соединения с базой данных.
      */
-    public static void dbConnect() {
+    public void dbConnect() {
         try {
             connection = DriverManager.getConnection(connectionUrl);
             System.out.println("connect db");
@@ -50,7 +50,7 @@ public class Database {
     /**
      * Метод отсоединения от базы данных.
      */
-    public static void dbDisconnect() {
+    public void dbDisconnect() {
         if (resultSet != null) {
             try {
                 resultSet.close();
@@ -74,7 +74,13 @@ public class Database {
         }
     }
 
-    public static ResultSet execSQL (String SQL) {
+    /**
+     * Выполнение SQL запроса.
+     * @param SQL
+     *        Строка запроса SQL
+     * @return Тип ResultSet.
+     */
+    public ResultSet execSQL (String SQL) {
         try {
             resultSet = statement.executeQuery(SQL);
             return resultSet;
@@ -84,11 +90,11 @@ public class Database {
         }
     }
 
-    public static Connection getConnection() {
+    public Connection getConnection() {
         return connection;
     }
 
-    public static Statement getStatement() {
+    public Statement getStatement() {
         return statement;
     }
 }
