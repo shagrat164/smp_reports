@@ -30,9 +30,15 @@ public class RootLayoutController {
 
     @FXML
     private void ConnectDB() throws Exception {
+<<<<<<< HEAD
 //        System.out.println("connect db");
 //        connectDB.setDisable(false);
 //        disconnectDB.setDisable(true);
+=======
+        System.out.println("connect db");
+        connectDB.setDisable(false);
+        disconnectDB.setDisable(true);
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
     }
 
     @FXML

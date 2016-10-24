@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7c31c259-6417-409d-a0af-71bce4ef59b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/Database.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/Database.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/MainApp.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/MainApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBaseController.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBaseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewJohnson.fxml" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewJohnson.fxml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewStatusController.java" afterPath="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewStatusController.java" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
     </list>
     <ignored path="smp_reports.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +38,7 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="239">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
@@ -43,6 +49,16 @@
                 <element signature="e#2999#3000#0" expanded="true" />
                 <element signature="e#3045#3046#0" expanded="true" />
                 <element signature="e#3073#3074#0" expanded="true" />
+=======
+            <state relative-caret-position="1887">
+              <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3369#3370#0" expanded="true" />
+                <element signature="e#3404#3405#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3478#3479#0" expanded="true" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
               </folding>
             </state>
           </provider>
@@ -51,8 +67,13 @@
       <file leaf-file-name="RootLayoutController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="306">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+            <state relative-caret-position="158">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#966#967#0" expanded="true" />
@@ -85,8 +106,13 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="187">
               <caret line="17" column="121" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
+=======
+            <state relative-caret-position="-850">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
               <folding />
             </state>
           </provider>
@@ -95,10 +121,19 @@
       <file leaf-file-name="ViewBaseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBaseController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="187">
               <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="464">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
               </folding>
             </state>
           </provider>
@@ -162,8 +197,8 @@
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBase.fxml" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewStatus.fxml" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayout.fxml" />
-        <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewStatusController.java" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewStatusController.java" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/Database.java" />
         <option value="$PROJECT_DIR$/src/ru/solpro/smp/reports/model/FillDataTableView.java" />
@@ -188,8 +223,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+    <option name="width" value="1292" />
+    <option name="height" value="1000" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -216,7 +256,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,6 +365,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -798,16 +845,26 @@
       <workItem from="1473682965910" duration="600000" />
       <workItem from="1473701219163" duration="806000" />
       <workItem from="1474654814068" duration="1148000" />
+<<<<<<< HEAD
       <workItem from="1476707802637" duration="2783000" />
       <workItem from="1477286550065" duration="12194000" />
+=======
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="73986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="59009000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1292" height="1000" extended-state="0" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -822,7 +879,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13854167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13871473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1228,38 +1289,68 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="17" column="121" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
+=======
+        <state relative-caret-position="-850">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/view/RootLayoutController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#966#967#0" expanded="true" />
             <element signature="e#1004#1005#0" expanded="true" />
+=======
+        <state relative-caret-position="464">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/view/ViewBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="1887">
+          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3369#3370#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/solpro/smp/reports/model/FillDataTableView.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="375">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+        <state relative-caret-position="158">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> 6802272479c774aec974b4ebc3a83621c51d4608
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
