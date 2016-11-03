@@ -17,7 +17,7 @@ import java.sql.ResultSet;
  */
 public class FillDataTableView {
     private TableView tableView;
-    private String SQL = "SELECT TOP 5 * FROM dbo.UA#Johnson_Fat";
+    private String SQL;
 
     public void setSQL(String SQL) {
         this.SQL = SQL;
@@ -37,7 +37,7 @@ public class FillDataTableView {
             Database database = new Database();
             database.dbConnect();
             ResultSet resultSet = database.execSQL(SQL);
-            database.dbDisconnect();
+//            database.dbDisconnect();
 
             for (int i = 0; i < resultSet.getMetaData().getColumnCount(); i++) {
                 final int j = i;
@@ -48,7 +48,7 @@ public class FillDataTableView {
                     }
                 });
                 tableView.getColumns().addAll(tableColumn);
-                System.out.println("Column ["+i+"]");
+                System.out.println("Column ["+i+"] "+resultSet.getMetaData().getColumnName(i+1));
             }
 
             while (resultSet.next()) {
@@ -61,6 +61,7 @@ public class FillDataTableView {
             }
             tableView.setItems(data);
             System.out.println("Данные добавлены в таблицу.");
+            database.dbDisconnect();
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error on Building Data.");

@@ -102,6 +102,10 @@ public class MainApp extends Application {
         return primaryStage;
     }
 
+    public BorderPane getRootLayout() {
+        return rootLayout;
+    }
+
     public static void main(String[] args) {
         launch(args);
     }

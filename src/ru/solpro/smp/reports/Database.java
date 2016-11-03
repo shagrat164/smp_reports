@@ -16,8 +16,9 @@ public class Database {
         connection = null;
         statement = null;
         resultSet = null;
-        connectionUrl = "jdbc:sqlserver://192.168.164.135:1433;"
-                + "database=CC_smp_repo_16_08_29_15_32_23R;"
+        connectionUrl = "jdbc:sqlserver://192.168.164.136:1433;"
+//                + "database=CC_smp_repo_16_08_29_15_32_23R;"
+                + "database=CC_smp_repo_16_10_24_16_20_09R;"
                 + "user=user;"
                 + "password=user;"
                 + "loginTimeout=10;";
@@ -40,8 +41,8 @@ public class Database {
     public void dbConnect() {
         try {
             connection = DriverManager.getConnection(connectionUrl);
-            System.out.println("connect db");
             statement = connection.createStatement();
+            System.out.println("connect db");
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
@@ -68,6 +69,7 @@ public class Database {
         if (connection != null) {
             try {
                 connection.close();
+                System.out.println("disconnect db");
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }

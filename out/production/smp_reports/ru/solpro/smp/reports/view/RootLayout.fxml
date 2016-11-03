@@ -23,7 +23,7 @@
               <MenuItem mnemonicParsing="false" text="Кемтек 1" />
               <MenuItem mnemonicParsing="false" text="Кемтек 2" />
               <MenuItem mnemonicParsing="false" text="Робертс" />
-              <MenuItem mnemonicParsing="false" text="Унипак" />
+              <MenuItem mnemonicParsing="false" onAction="#ViewJohnson" text="Унипак" fx:id="ViewJohnson"/>
               <MenuItem mnemonicParsing="false" text="Джонсон" />
             </items>
           </Menu>
