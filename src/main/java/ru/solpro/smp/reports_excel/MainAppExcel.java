@@ -24,7 +24,7 @@ public class MainAppExcel extends Application {
         this.primaryStage.setTitle("Экспорт отчётов - СМП");
         this.primaryStage.setMinWidth(1024);
         this.primaryStage.setMinHeight(768);
-        this.primaryStage.getIcons().add(new Image("file:resources/images/icon_app.png"));
+        this.primaryStage.getIcons().add(new Image("/img/icon_app.png"));
 
         initRootLayout();
         showMainOverview();
@@ -36,7 +36,7 @@ public class MainAppExcel extends Application {
     private void showMainOverview() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainAppExcel.class.getResource("view/ViewBase.fxml"));
+            loader.setLocation(MainAppExcel.class.getResource("/fxml/ViewBase.fxml"));
             AnchorPane anchorPane = (AnchorPane) loader.load();
 
             rootLayout.setCenter(anchorPane);
@@ -57,7 +57,7 @@ public class MainAppExcel extends Application {
     public void initRootLayout() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainAppExcel.class.getResource("view/RootLayout.fxml"));
+            loader.setLocation(MainAppExcel.class.getResource("/fxml/RootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
 
             Scene scene = new Scene(rootLayout);
