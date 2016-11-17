@@ -4,8 +4,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.util.Callback;
 import ru.solpro.smp.reports_excel.Database;
+import ru.solpro.smp.reports_excel.model.Excel;
 import ru.solpro.smp.reports_excel.util.DateUtil;
 
+import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
@@ -68,23 +70,32 @@ public class ViewBaseController {
             Database database = new Database();
             database.dbConnect();
             ResultSet resultSet = database.execSQL(
-                    "SELECT    ten_min AS [кол-во], SKU, LastAccess AS [Date/Time]\n" +
-                    "FROM      "+ tableName +"\n" +
-                    "WHERE     (LastAccess >= CONVERT(DATETIME, '"+ dateStart +" 00:00:00', 102)) AND\n" +
-                    "          (LastAccess <= CONVERT(DATETIME, '"+ dateEnd + " 00:00:00', 102))");
-            for (int i = 0; i < resultSet.getMetaData().getColumnCount(); i++) {
-                System.out.print(resultSet.getMetaData().getColumnName(i+1) + "\t");
-            }
-            System.out.println();
-            while (resultSet.next()) {
-                for (int i = 1; i <= resultSet.getMetaData().getColumnCount(); i++) {
-                    System.out.print(resultSet.getString(i) + "\t");
-                }
-                System.out.println();
-            }
+//                    "SELECT    ten_min AS [кол-во], SKU, LastAccess AS [Date/Time]\n" +
+//                    "FROM      "+ tableName +"\n" +
+//                    "WHERE     (LastAccess >= CONVERT(DATETIME, '"+ dateStart +" 00:00:00', 102)) AND\n" +
+//                    "          (LastAccess <= CONVERT(DATETIME, '"+ dateEnd + " 00:00:00', 102))");
+                            "SELECT  TOP 10  ten_min AS [кол-во], SKU, LastAccess AS [Date/Time]\n" +
+                            "FROM      UA#Kemtec_1_GP\n" +
+                            "WHERE     (LastAccess >= CONVERT(DATETIME, '2016-05-11 00:00:00', 102)) AND\n" +
+                            "          (LastAccess <= CONVERT(DATETIME, '2016-05-12 00:00:00', 102))");
+
+            Excel.exportData("C:\\text.xls", resultSet);
+
+//            for (int i = 0; i < resultSet.getMetaData().getColumnCount(); i++) {
+//                System.out.print(resultSet.getMetaData().getColumnName(i+1) + "\t");
+//            }
+//            System.out.println();
+//            while (resultSet.next()) {
+//                for (int i = 1; i <= resultSet.getMetaData().getColumnCount(); i++) {
+//                    System.out.print(resultSet.getString(i) + "\t");
+//                }
+//                System.out.println();
+//            }
             database.dbDisconnect();
+        } catch (IOException e) {
+            System.out.println(e);
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e);
         }
     }
 }
