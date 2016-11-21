@@ -12,9 +12,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
-/**
- * Created by Администратор on 16.11.2016.
- */
 public class ViewBaseController {
     @FXML
     DatePicker dateStartKemtec1GP;

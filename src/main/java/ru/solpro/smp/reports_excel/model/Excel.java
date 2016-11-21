@@ -12,11 +12,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Time;
 
-
-/**
- * Created by Администратор on 17.11.2016.
- */
-
 public class Excel {
     public static void exportData(String file, ResultSet resultSet) throws IOException, SQLException{
         Workbook workbook = new HSSFWorkbook();

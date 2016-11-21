@@ -10,9 +10,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * Created by Администратор on 09.11.2016.
- */
 public class MainAppExcel extends Application {
 
     private Stage primaryStage;

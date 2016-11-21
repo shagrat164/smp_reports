@@ -2,9 +2,6 @@ package ru.solpro.smp.reports_excel;
 
 import java.sql.*;
 
-/**
- * Created by danila on 15.11.2016.
- */
 public class Database {
     private Connection connection;
     private Statement statement;
@@ -22,9 +19,6 @@ public class Database {
                 + "loginTimeout=10;";
     }
 
-    /**
-     * Метод соединения с базой данных.
-     */
     public void dbConnect() {
         try {
             connection = DriverManager.getConnection(connectionUrl);
@@ -35,9 +29,6 @@ public class Database {
         }
     }
 
-    /**
-     * Метод отсоединения от базы данных.
-     */
     public void dbDisconnect() {
         if (resultSet != null) {
             try {
@@ -63,12 +54,6 @@ public class Database {
         }
     }
 
-    /**
-     * Выполнение SQL запроса.
-     * @param SQL
-     *        Строка запроса SQL
-     * @return Тип ResultSet.
-     */
     public ResultSet execSQL (String SQL) {
         try {
             resultSet = statement.executeQuery(SQL);

@@ -12,9 +12,6 @@ import ru.solpro.smp.reports_excel.Database;
 
 import java.sql.ResultSet;
 
-/**
- * Created by Администратор on 24.10.2016.
- */
 public class FillDataTableView {
     private TableView tableView;
     private String SQL;
